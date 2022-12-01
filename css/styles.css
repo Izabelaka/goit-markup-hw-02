@@ -1,3 +1,28 @@
-body {
-    background-color: teal;
+:root{
+    --blue: #2196F3;
+    --black: #212121;
+    --grey: #757575;
+    --grey-footer:rgba(255, 255, 255, 0.6);
+    --background-footer: #2F303A;
+    --background-main: #E5E5E5;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--black)
+}
+
+nav a.active{
+    color: var(--blue);
+}
+
+address a.active:
+
+.main-:hover{
+text-decoration:underline
+}
+
+:focus{
+
 }

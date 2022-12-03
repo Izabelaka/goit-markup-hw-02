@@ -13,13 +13,44 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color-black);
-    background-color: var(--brand-color-white)
+    background-color: var(--brand-color-white);
 }
 
 h3 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 14px;
+    line-height: 1,1875;
 }
+h3:hover, h3:focus {
+    text-decoration: underline var(--brand-color-blue);
+}
+h4{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;        
+}
+h4:hover, h4:focus{
+    text-decoration: underline var(--brand-color-blue);
+}
+
+.header-two{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1,1667;
+}
+.header-two:hover, .header-two:focus{
+    text-decoration: underline var(--brand-color-blue);
+}
+.portfolio-filter{
+    color: var(--brand-color-grey);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1,875;
+}
+.portfolio-filter:hover, portfolio-filter:focus{
+    text-decoration: underline var(--brand-color-blue);
+}
+
 
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -29,6 +60,9 @@ h3 {
     letter-spacing: 0.03em;
     color: var(--brand-color-black);
     text-decoration: none;
+}
+.logo:hover,.logo:focus {
+    text-decoration: underline var(--brand-color-blue);
 }
 
 .brand-color-blue{
@@ -43,12 +77,24 @@ color: var(--brand-color-black);
 }
 
 .menu-link:hover{
-color: var(--brand-color-blue);
+text-decoration: underline var(--brand-color-blue);
 }
 .menu-link:focus{
-color: var(--brand-color-blue);
+text-decoration: underline var(--brand-color-blue);
 }
 
+.menu-link-activ{
+    text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--brand-color-blue);
+    }
+.menu-link-activ:hover{
+text-decoration: underline var(--brand-color-blue);
+}
+.menu-link-activ:focus{
+text-decoration: underline var(--brand-color-blue);
+}
 
 .menu-contact-link{
     color: var(--brand-color-grey);
@@ -58,10 +104,12 @@ color: var(--brand-color-blue);
 }
 .menu-contact-link:hover{
     color: var(--brand-color-blue);
+    text-decoration: underline var(--brand-color-blue);
 }
 
 .menu-contact-link:focus {
     color: var(--brand-color-blue);
+    text-decoration: underline var(--brand-color-blue);
 }
 
 .header-one{
@@ -80,15 +128,35 @@ color: var(--brand-color-blue);
     background-color: var(--brand-color-blue);
     border: none;
 }
+
+.lorem-p{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1,714;
+        color:var(--brand-color-grey);
+}
+.lorem-p:hover, .lorem-p:focus {
+    text-decoration: underline var(--brand-color-blue);
+}
+
+
 .team-name {
     font-weight: 500;
     padding: 30px 0 10px 0;
+}
+.team-name:hover,.team-name:focus {
+    text-decoration: underline var(--brand-color-blue);
 }
 
 .team-job {
     color: #757575;
     font-weight: 400;
 }
+.team-job:hover, .team-job:focus {
+    text-decoration: underline var(--brand-color-blue);
+}
+
+
 .footer{
     background-color: var(--brand-background-dark);
     color: var(--brand-color-white)
@@ -103,6 +171,11 @@ color: var(--brand-color-blue);
     color: var(--brand-color-white);
     text-decoration: none;
 }
+.footer-logo:hover,.footer-logo:focus {
+    text-decoration: underline var(--brand-color-blue);
+}
+
+
 .footer-link-address{
     font-weight: 400;
         font-size: 14px;
@@ -111,6 +184,10 @@ color: var(--brand-color-blue);
         text-decoration:none;
 
 }
+.footer-link-address:hover,.footer-link-address:focus {
+    text-decoration: underline var(--brand-color-blue);
+}
+
 .footer-link-address:hover {
     color: #2196f3;
 }
@@ -127,15 +204,14 @@ color: var(--brand-color-blue);
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link-contact:hover {
-    color: #2196f3;
-}
-
+.footer-link-contact:hover,
 .footer-link-contact:focus {
-    color: #2196f3;
+    text-decoration: underline var(--brand-color-blue);
 }
 
-
+.img-style:hover, .img-style:focus{
+    border: 2px solid var(--brand-color-blue)
+}
 
 
 .active-blue{
@@ -153,8 +229,6 @@ color: var(--brand-color-blue);
     cursor: pointer;
     letter-spacing: 0.03em;
 }
-.portfolio-button:hover 
-.portfolio-button:focus,
-.portfolio-button:active {
-outline: var(--brand-color-blue);
+.portfolio-button:hover,.portfolio-button:focus {
+    text-decoration: underline var(--brand-color-blue);
 }

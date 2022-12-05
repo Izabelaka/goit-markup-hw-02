@@ -6,6 +6,7 @@
     --brand-footer-color-grey:rgba(255, 255, 255, 0.6);
     --brand-background-dark: #2F303A;
     --brand-background-main: #E5E5E5;
+    --brand-backround-team: #F5F4FA;
 
 }
 
@@ -31,11 +32,9 @@ font-weight: 700;
 }
 
 .lorem-p {
-    font-weight: 400;
-    font-size: 14px;
+    
     line-height: 1.714;
     color: var(--brand-color-grey);
-    letter-spacing: 0.03em;
 }
 
 .portfolio-header4{
@@ -125,14 +124,8 @@ color: var(--brand-color-blue);;
         font-size: 44px;
         line-height: 1.3636;
         color: var(--brand-color-white)
+        letter-spacing: 0.06em;
     
-/*         
-        height: 600px;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1, 36em;
-        text-align: center;
-        padding: 275px 0px 0px 0px; */
     }
 
 .header-one-button {
@@ -148,7 +141,9 @@ color: var(--brand-color-blue);;
 }
 
 
-
+.team{
+    background-color: var(--brand-backround-team);
+}
 
 
 .team-name {
@@ -224,4 +219,18 @@ color: var(--brand-color-blue);;
 .portfolio-button:hover, .portfolio-button:focus, .portfolio-button:active{
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }

@@ -195,19 +195,6 @@ color: var(--brand-color-blue);;
         letter-spacing: 0.03em;
 }
 
-.footer-link-contact-mail{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-        text-decoration-line: underline;
-    color: var(--brand-footer-color-grey);
-}
-
-.footer-link-contact-mail:hover,
-.footer-link-contact-mail:focus,
-.footer-link-contact-mail:active {
-    color: var(--brand-color-white);
-}
 
 
 .footer-link-contact {
